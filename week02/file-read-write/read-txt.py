@@ -21,6 +21,7 @@ def main():
     p = Path(sys.argv[1])
 
     #with-open  打开文件
+    # with 自动实现了 try/finally 把"用完必须关闭"这件事从"靠人记得"变成了"语法保证"，少一类 bug
     with p.open(encoding="utf-8") as f:
 
         #读取全文
