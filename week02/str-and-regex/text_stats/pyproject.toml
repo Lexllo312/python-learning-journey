@@ -1,0 +1,19 @@
+[project]
+name = "text-stats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pwm", email = "1211829962@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+text-stats = "text_stats:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
