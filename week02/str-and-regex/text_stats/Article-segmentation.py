@@ -6,7 +6,9 @@
   脚本一升级2.0: 加异常 和 日志
 
   raise 负责"发现问题并抛出", try/except 负责"预期出错并接住"
-
+  
+  import 导入整个模块， from...import  导入某个函数或变量
+  已成功拆成模块化, 放在 同目录/src/text_stats
 '''
 
 

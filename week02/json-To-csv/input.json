@@ -1,0 +1,6 @@
+[
+  {"name": "小明", "age": 18, "city": "北京", "email": ""},
+  {"name": "小红", "age": 20, "email": "hong@example.com"},
+  {"name": "小华", "city": "上海", "age": null},
+  {"name": "小刚", "age": 25, "email": "gang@example.com"}
+]
